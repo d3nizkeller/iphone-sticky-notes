@@ -1,5 +1,7 @@
 # Установка iPhone Sticky Notes для Windhawk — инструкция для новичков
 
+> Файл специально расположен в `docs/WINDHAWK_STICKY_NOTES_GUIDE_RU.md`, чтобы не конфликтовать с `INSTALL_RU.md` в pull request.
+
 Эта инструкция сделана для пользователей, которые раньше не работали с GitHub, Windhawk и модами.
 
 ## Что получится после установки
@@ -124,7 +126,7 @@ git push -u origin HEAD
 
 ## Если GitHub пишет: `This branch has conflicts that must be resolved`
 
-Такой конфликт чаще всего появляется, когда в pull request изменён `README.md`, а в основной ветке он тоже изменился. В этой версии подробная инструкция вынесена в отдельный файл `INSTALL_RU.md`, а README.md возвращён к исходному виду, чтобы убрать конфликт по `README.md`.
+Такой конфликт чаще всего появляется, когда в pull request изменён `README.md`, а в основной ветке он тоже изменился. В этой версии подробная инструкция лежит в отдельном файле `docs/WINDHAWK_STICKY_NOTES_GUIDE_RU.md`. Файл `INSTALL_RU.md` удалён из ветки, чтобы убрать конфликт по `INSTALL_RU.md`.
 
 Если конфликт всё равно виден на GitHub:
 
