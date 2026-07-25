@@ -50,7 +50,7 @@ if (-not $IsWindows) {
 }
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$modPath = Join-Path $repoRoot 'mods\iphone-sticky-notes.wh.cpp'
+$modPath = Join-Path $repoRoot 'windhawk\iphone-liquid-glass-sticky-notes.wh.cpp'
 
 if (-not (Test-Path $modPath)) {
     throw "Не найден файл мода: $modPath"

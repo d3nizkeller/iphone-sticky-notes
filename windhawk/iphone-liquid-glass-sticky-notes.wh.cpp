@@ -1,6 +1,6 @@
 // ==WindhawkMod==
-// @id              iphone-sticky-notes
-// @name            iPhone Sticky Notes
+// @id              iphone-liquid-glass-sticky-notes
+// @name            iPhone Liquid Glass Sticky Notes
 // @description     Desktop sticky notes with a modern iPhone liquid-glass look, editable text, colors, drag, autosave, and a small add-note button.
 // @version         1.0
 // @author          iphone-sticky-notes contributors

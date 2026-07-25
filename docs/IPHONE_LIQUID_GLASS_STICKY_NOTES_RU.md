@@ -1,6 +1,6 @@
 # Установка iPhone Sticky Notes для Windhawk — инструкция для новичков
 
-> Файл специально расположен в `docs/WINDHAWK_STICKY_NOTES_GUIDE_RU.md`, чтобы не конфликтовать с `INSTALL_RU.md` в pull request.
+> Файл специально расположен в `docs/IPHONE_LIQUID_GLASS_STICKY_NOTES_RU.md`, чтобы не конфликтовать с `INSTALL_RU.md`, `docs/WINDHAWK_STICKY_NOTES_GUIDE_RU.md` и `mods/iphone-sticky-notes.wh.cpp` в pull request.
 
 Эта инструкция сделана для пользователей, которые раньше не работали с GitHub, Windhawk и модами.
 
@@ -38,7 +38,7 @@
 ## Вариант 2 — установка через GitHub Raw-ссылку
 
 1. Загрузите этот проект в свой GitHub-репозиторий.
-2. Откройте файл `mods/iphone-sticky-notes.wh.cpp` на GitHub.
+2. Откройте файл `windhawk/iphone-liquid-glass-sticky-notes.wh.cpp` на GitHub.
 3. Нажмите кнопку **Raw**.
 4. Скопируйте ссылку из адресной строки браузера.
 5. Откройте Windhawk.
@@ -54,7 +54,7 @@
 
 1. Откройте папку проекта `iphone-sticky-notes`.
 2. Откройте папку `mods`.
-3. Найдите файл `iphone-sticky-notes.wh.cpp`.
+3. Найдите файл `iphone-liquid-glass-sticky-notes.wh.cpp`.
 4. Откройте файл в обычном Блокноте, Notepad++, VS Code или прямо на GitHub.
 5. Нажмите **Ctrl+A**, чтобы выделить весь текст файла.
 6. Нажмите **Ctrl+C**, чтобы скопировать весь код.
@@ -69,7 +69,7 @@
 5. Нажмите внутри редактора мышкой.
 6. Нажмите **Ctrl+A**, чтобы выделить пример кода.
 7. Нажмите **Delete** или **Backspace**, чтобы удалить пример.
-8. Нажмите **Ctrl+V**, чтобы вставить код `iphone-sticky-notes.wh.cpp`.
+8. Нажмите **Ctrl+V**, чтобы вставить код `iphone-liquid-glass-sticky-notes.wh.cpp`.
 
 ### Шаг 3. Скомпилируйте мод
 
@@ -126,7 +126,7 @@ git push -u origin HEAD
 
 ## Если GitHub пишет: `This branch has conflicts that must be resolved`
 
-Такой конфликт чаще всего появляется, когда в pull request изменён `README.md`, а в основной ветке он тоже изменился. В этой версии подробная инструкция лежит в отдельном файле `docs/WINDHAWK_STICKY_NOTES_GUIDE_RU.md`. Файл `INSTALL_RU.md` удалён из ветки, чтобы убрать конфликт по `INSTALL_RU.md`.
+Такой конфликт чаще всего появляется, когда в pull request изменён `README.md`, а в основной ветке он тоже изменился. В этой версии подробная инструкция лежит в отдельном файле `docs/IPHONE_LIQUID_GLASS_STICKY_NOTES_RU.md`. Старые конфликтные пути `INSTALL_RU.md`, `docs/WINDHAWK_STICKY_NOTES_GUIDE_RU.md` и `mods/iphone-sticky-notes.wh.cpp` удалены из ветки, чтобы убрать конфликты по этим файлам.
 
 Если конфликт всё равно виден на GitHub:
 
